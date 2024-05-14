@@ -2,7 +2,8 @@ export type CityData = {
     id: string,
     name: string,
     country: string,
+    posterImageNameFile: string,
     posterImageUrl: string,
-    posterAttribution: string
+    posterAttributionAuthor: string
     posterAttributionUrl: string
 }

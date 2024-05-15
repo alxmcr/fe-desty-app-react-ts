@@ -10,7 +10,7 @@ export default function CardPost({ post }: Props) {
   }
 
   return (
-    <article className="flex flex-col gap-4 rounded-lg border border-reef-300 px-[12px] py-4">
+    <article className="flex w-full flex-col gap-4 rounded-lg border border-reef-300 px-[12px] py-4 md:h-[416px] md:w-[288px]">
       <header className="flex gap-2">
         <img
           src={post.writer.profileImageUrl}
@@ -23,16 +23,20 @@ export default function CardPost({ post }: Props) {
         </div>
       </header>
       <div className="flex flex-col gap-4">
-        <img src={post.place.posterImageUrl} alt={`${post.place.posterLocation}'s picture`} />
+        <img
+          src={post.place.posterImageUrl}
+          alt={`${post.place.posterLocation}'s picture`}
+          className="md:h-[170px] md:w-[264px] rounded-lg"
+        />
         <div className="flex flex-col">
-          <h3 className="font-josefin text-[24px] font-bold text-reef-300">{post.place.name}</h3>
+          <h3 className="font-josefin text-[26px] font-bold text-reef-300">{post.place.name}</h3>
           <h4 className="font-josefin text-[20px] text-light-50">{post.place.country}</h4>
         </div>
       </div>
       <footer>
         <a
           href="#"
-          className="flex h-[48px] w-full items-center justify-center rounded-lg bg-reef-300 text-[16px] text-light-950 hover:bg-reef-100 hover:text-light-950 md:w-[152px]"
+          className="flex h-[48px] w-full items-center justify-center rounded-lg bg-reef-300 font-josefin text-[18px] font-normal text-light-950 hover:bg-reef-100 hover:text-light-950"
         >
           Read more
         </a>

@@ -11,6 +11,30 @@ export const NewYork: PlaceData = {
   posterAttributionUrl: 'https://unsplash.com/photos/cars-parked-near-brown-building-wOj5odhDOZ0',
 };
 
+export const LosAngeles: PlaceData = {
+  id: 'city-eeuu-002',
+  name: 'Los Angeles',
+  country: 'United States',
+  posterLocation: 'Boulevard Windsor',
+  posterImageNameFile: 'boulevard-windsor.jpg',
+  posterImageUrl: '/assets/images/places/boulevard-windsor.jpg',
+  posterAttributionAuthor: 'Jake Blucker',
+  posterAttributionUrl:
+    'https://unsplash.com/photos/people-sitting-on-chairs-near-palm-trees-during-night-time-8LlJNFLTEm0',
+};
+
+export const Seattle: PlaceData = {
+  id: 'city-eeuu-003',
+  name: 'Seattle',
+  country: 'United States',
+  posterLocation: 'Kerry Park',
+  posterImageNameFile: 'kerry-park.jpg',
+  posterImageUrl: '/assets/images/places/kerry-park.jpg',
+  posterAttributionAuthor: 'Stephen Plopper',
+  posterAttributionUrl:
+    'https://unsplash.com/photos/high-rise-buildings-during-daytime-UmEYn_GYqFo',
+};
+
 export const CDMX: PlaceData = {
   id: 'city-mexico-001',
   name: 'Ciudad de México',
@@ -44,7 +68,7 @@ export const Munich: PlaceData = {
   posterAttributionUrl: 'https://unsplash.com/photos/aerial-photo-of-cityscape-during-nighttime-C6l894Q7wpI',
 };
 
-export const Malasia: PlaceData = {
+export const PerhentianIslands: PlaceData = {
   id: 'city-malaysia-001',
   name: 'Perhentian Islands',
   country: 'Malaysia',
@@ -52,5 +76,6 @@ export const Malasia: PlaceData = {
   posterImageNameFile: 'perhentian-islands.jpg',
   posterImageUrl: '/assets/images/places/perhentian-islands.jpg',
   posterAttributionAuthor: 'Gaddafi Rusli',
-  posterAttributionUrl: 'https://unsplash.com/photos/aerial-view-photography-of-boats-on-seashore-2ueUnL4CkV8',
+  posterAttributionUrl:
+    'https://unsplash.com/photos/aerial-view-photography-of-boats-on-seashore-2ueUnL4CkV8',
 };

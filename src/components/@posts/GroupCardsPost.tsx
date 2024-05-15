@@ -7,7 +7,7 @@ type Props = {
 
 export default function GroupCardsPost({ posts = [] }: Props) {
   return (
-    <div className="flex flex-col gap-4 md:grid md:grid-cols-2 lg:grid-cols-3">
+    <div className="flex flex-col gap-4 md:grid md:grid-cols-2 md:gap-[88px] lg:grid-cols-3">
       {posts.map((post) => (
         <CardPost key={post.id} post={post} />
       ))}

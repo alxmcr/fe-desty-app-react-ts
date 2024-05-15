@@ -8,3 +8,17 @@ export type PlaceData = {
   posterAttributionAuthor: string;
   posterAttributionUrl: string;
 };
+
+export type WriterData = {
+  id: string;
+  name: string;
+  profileImageUrl: string;
+};
+
+export type PostData = {
+  id: string;
+  place: PlaceData;
+  writer: WriterData;
+  publishedAt: string;
+  updatedAt: string;
+};

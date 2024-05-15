@@ -8,3 +8,11 @@ export type PlaceData = {
   posterAttributionAuthor: string;
   posterAttributionUrl: string;
 };
+
+export type PostsData = {
+  id: string;
+  authorName: string;
+  authorProfileImageUrl: string;
+  publishedAt: string;
+  updatedAt: string;
+};

@@ -9,8 +9,8 @@ export default function HomePage() {
     <div className="h-screen bg-light-950">
       <MainContent />
       <PostsSection />
-      <InvitationCTASection />
       <SubscribeNewsletterSection />
+      <InvitationCTASection />
       <AppFooter />
     </div>
   );

@@ -59,7 +59,7 @@ Start the server
 
 ## Demo
 
-[Muvifav app](https://the-desty-app.netlify.app/)
+[Desty app](https://the-desty-app.netlify.app/)
 
 
 ## Authors

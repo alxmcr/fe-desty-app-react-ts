@@ -1,3 +1,4 @@
+import AppFooter from '../components/AppFooter';
 import MainContent from '../components/home-page/MainContent';
 import InvitationCTASection from '../components/sections/InvitationCTASection';
 import PostsSection from '../components/sections/PostsSection';
@@ -10,6 +11,7 @@ export default function HomePage() {
       <PostsSection />
       <InvitationCTASection />
       <SubscribeNewsletterSection />
+      <AppFooter />
     </div>
   );
 }

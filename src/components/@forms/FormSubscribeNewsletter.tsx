@@ -5,6 +5,7 @@ export default function FormSubscribeNewsletter() {
 
   const handleSubmit = (ev: React.FormEvent) => {
     ev.preventDefault();
+    setEmail('')
   };
 
   return (

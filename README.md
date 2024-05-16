@@ -35,19 +35,19 @@ Start the server
 
 - Landing page
 
-![Landing page](https://the-desty-app/screenshots/landing-page.png)
+![Landing page](https://the-desty-app.netlify.app/screenshots/landing-page.png)
 
 - Explore section
 
-![Landing page](https://the-desty-app/screenshots/explore-section.png)
+![Landing page](https://the-desty-app.netlify.app/screenshots/explore-section.png)
 
 - Subscribe section
 
-![Landing page](https://the-desty-app/screenshots/subscribe-section.png)
+![Landing page](https://the-desty-app.netlify.app/screenshots/subscribe-section.png)
 
 - CTA section
 
-![Landing page](https://the-desty-app/screenshots/cta-section.png)
+![Landing page](https://the-desty-app.netlify.app/screenshots/cta-section.png)
 
 
 ## Tech Stack

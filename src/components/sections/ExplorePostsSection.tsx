@@ -18,7 +18,7 @@ export default function ExplorePostsSection() {
 
   if (LoadingStates.ERROR === statusLoadingPosts && errorPosts) {
     return (
-      <section className="bg-light-950">
+      <section id="explore" className="bg-light-950">
         <div className="flex flex-col gap-4 p-4 md:h-[500px] md:w-full md:px-10 lg:mx-auto lg:w-[1028px] lg:px-0">
           <h2 className="font-oleo text-[30px] text-reef-300 underline underline-offset-1">Explore</h2>
           <h3 className="font-josefin text-[24px] text-light-50">{errorPosts.message}</h3>
@@ -28,7 +28,7 @@ export default function ExplorePostsSection() {
   }
 
   return (
-    <section className="bg-light-950 py-4 md:py-8">
+    <section id="explore" className="bg-light-950 py-4 md:py-8">
       <div className="flex flex-col gap-6 p-4 md:w-full md:gap-8 md:px-10 lg:mx-auto lg:w-[1028px] lg:gap-10 lg:px-0">
         <h2 className="font-oleo text-[30px] text-reef-300 underline underline-offset-auto md:text-[40px]">
           Explore

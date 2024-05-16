@@ -6,7 +6,7 @@ import SubscribeNewsletterSection from '../components/sections/SubscribeNewslett
 
 export default function HomePage() {
   return (
-    <div className="h-screen bg-light-950">
+    <div className="scroll-smooth h-screen bg-light-950">
       <MainContent />
       <PostsSection />
       <SubscribeNewsletterSection />

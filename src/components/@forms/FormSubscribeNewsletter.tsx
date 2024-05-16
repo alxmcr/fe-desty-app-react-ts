@@ -1,14 +1,27 @@
+import React from 'react';
+
 export default function FormSubscribeNewsletter() {
+  const [email, setEmail] = React.useState('');
+
+  const handleSubmit = (ev: React.FormEvent) => {
+    ev.preventDefault();
+    setEmail('')
+  };
+
   return (
-    <form className="flex flex-col gap-[28px]">
+    <form onSubmit={handleSubmit} className="flex flex-col gap-[28px]">
       <label htmlFor="email-newsletter" className="flex flex-col gap-[16px]">
         <span className="font-josefin text-[18px] text-light-50">Email</span>
         <input
           type="email"
           name="email-newsletter"
           id="email-newsletter"
-          className="h-[48px] rounded-lg border border-reef-300 bg-transparent p-[10px]"
+          className="h-[48px] rounded-lg border border-reef-300 bg-transparent p-[10px] text-light-50"
           placeholder="Enter your email here, please"
+          autoComplete="off"
+          required
+          value={email}
+          onChange={(ev) => setEmail(ev.target.value)}
         />
       </label>
       <button

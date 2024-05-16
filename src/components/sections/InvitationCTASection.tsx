@@ -1,7 +1,7 @@
 export default function InvitationCTASection() {
   return (
     <section className="bg-light-950 py-16 md:py-8">
-      <div className="flex h-screen flex-col items-center justify-center bg-[url('assets/images/bg-hero-04.png')] bg-center bg-no-repeat md:h-[550px]">
+      <div className="flex h-screen flex-col items-center justify-center bg-[url('/assets/images/bg-hero-04.png')] bg-center bg-no-repeat md:h-[550px]">
         <div className="flex flex-col items-center justify-center gap-12">
           <h2 className="w-[288px] text-center font-oleo text-[40px] text-reef-300 md:w-[320px] md:text-[48px]">
             Life is short, and the world is wide.

@@ -15,7 +15,7 @@ export default function InvitationCTASection() {
             </a>
             <a
               href="#newsletter"
-              className="flex h-12 w-full items-center justify-center rounded-lg border border-reef-300 font-groteskspace text-reef-300 hover:bg-reef-300 hover:text-light-950 md:w-[288px]"
+              className="flex h-12 w-full items-center justify-center rounded-lg border border-reef-300 font-josefin text-reef-300 hover:bg-reef-300 hover:text-light-950 md:w-[288px]"
             >
               Newsletter
             </a>

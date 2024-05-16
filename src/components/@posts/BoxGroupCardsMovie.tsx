@@ -8,7 +8,7 @@ type Props = {
 export default function BoxGroupCardsMovie({ posts = [] }: Props) {
   if (posts.length === 0) {
     return (
-      <div>
+      <div className="bg-light-950">
         <h3>No posts</h3>
       </div>
     );

@@ -1,6 +1,7 @@
 import MainContent from '../components/home-page/MainContent';
 import InvitationCTASection from '../components/sections/InvitationCTASection';
 import PostsSection from '../components/sections/PostsSection';
+import SubscribeNewsletterSection from '../components/sections/SubscribeNewsletterSection';
 
 export default function HomePage() {
   return (
@@ -8,6 +9,7 @@ export default function HomePage() {
       <MainContent />
       <PostsSection />
       <InvitationCTASection />
+      <SubscribeNewsletterSection />
     </div>
   );
 }
